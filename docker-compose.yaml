@@ -16,7 +16,7 @@ services:
     - mongodb
 
   redis:
-    image: venuuu/redis:v1
+    image: redis:7.0
     container_name: redis
 
   user:
