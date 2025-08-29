@@ -17,7 +17,7 @@ RUN touch /var/run/nginx.pid && \
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD static /usr/share/nginx/html/
 USER nginx
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx","-g","daemon off;"]
 
 
 # FROM nginx
